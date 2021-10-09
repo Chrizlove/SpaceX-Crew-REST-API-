@@ -13,9 +13,8 @@
 
         <ImageView
             android:id="@+id/crew_image"
-            android:layout_width="377dp"
-            android:layout_height="411dp"
-            android:layout_marginEnd="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -52,9 +51,11 @@
 
         <TextView
             android:id="@+id/crew_wikipedia"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:gravity="center"
             android:text="TextView"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
